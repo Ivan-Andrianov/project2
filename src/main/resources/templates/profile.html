@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css" type="text/css"/>
+</head>
+<script>
+    function zakr(){
+        document.getElementById('aa').style.display="none";
+        document.getElementById('change').style.display="none";
+        document.getElementById('as').style.display="none";
+    } 
+    function otkr(){
+        document.getElementById('aa').style.display="block";
+        document.getElementById('change').style.display="block";
+        document.getElementById('as').style.display="block";
+    } 
+  
+   
+</script>
+<body>
+
+    <div class = "header">
+        <input type="text" name="" id="as" placeholder="🔍Найти">
+<input id="test" type="checkbox"  value="null" >
+
+<label for="test">
+    <svg class="burger"  width="86" height="60" viewbox="0 0 150 150" onclick="zakr()">
+        <g stroke-width="12">   
+            <line x1="6" y1="6" x2="80" y2="6"></line>
+            <line x1="6" y1="28" x2="80" y2="28"></line>
+            <line x1="6" y1="50" x2="80" y2="50"> </line>
+        </g>
+      
+    </svg>
+   
+
+<br>
+    <svg class="close"   width="40" height="60" viewbox="0 0 60 60" onclick="otkr()">
+        <g stroke-width="12">   
+            <line x1="42" y1="6" x2="42" y2="80"></line>
+            <line x1="6" y1="42" x2="80" y2="42"></line>
+        </g>
+    </svg>
+
+
+</label>
+
+    <div class="menu">
+        
+        <a class="podMenu" href="#">Топ проекты</a> 
+        
+        <a class="podMenu" href="myProject.html">Создать проект</a> 
+        <a  class="podMenu" href="#">Мои проекты</a> 
+        <a class="podMenu" href="#">Друзья</a> 
+        <a class="podMenu" href="#">Подписчики</a>
+        <a class="podMenu"  href="#">Команды</a> 
+        <a class="podMenu"  href="#">донаты</a>
+
+    </div>
+
+</div>
+
+
+    
+
+    <div class = "aside">
+
+        <div class = "person">
+
+        <div class = "photo">
+   
+        </div>
+  
+
+        
+        <div class = "fio">
+Поздняков Миасник </div> 
+<div class = "wra">
+    <div class="st">статус</div>
+    <div class = "circle">i</div>
+    
+    <a href="#popup" id="aa"class="aaa">подробнее</a>
+
+</div>  
+
+<button id="change" class = "change" ><a class ="ch"href="change.html"> редактировать профиль</a></button>    
+
+        </div>    
+
+        </div>
+        
+    </div>
+    <div class = "mid">
+
+    <div class = "boxCom">
+
+    </div>
+    <div class = "myLent">
+
+    </div>
+    </div>
+    
+
+    <div id = "popup" class="popup">
+        <div class="popup__body">
+        <div class="popup__content">
+          <a href="#" class = "popup__close">X</a>
+          <div class="popup__title">подробная информация</div>
+          <div class="popup__text">
+<div class="fio2">
+<hr class="otec" width="99.8% " color="#ee00ff" >
+<br>
+Поздняков<br>
+Миасник
+</div>
+<div class="bornToBe">
+    <hr color="#ee00ff">
+Москва<br>
+фронтенд-разработчик
+</div>
+<div class="projects">
+    <hr color="#ee00ff">
+Мои проекты
+
+</div>
+
+
+          </div>
+        </div>
+        
+        </div>
+        
+        
+        </div>
+
+</body>
+</html>

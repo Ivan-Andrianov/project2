@@ -1,0 +1,94 @@
+header{
+    margin-top:40px;
+}
+.texty{
+  margin-left:200px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.nazv{
+    font-size: 90px;
+    font-family: "Times New Roman", Times, serif;
+}
+.c{
+  
+        border-style: solid;
+        border-color: transparent transparent rgb(133, 6, 159);
+        border-width: 0 25px 25px 25px;
+        height: 0;
+        width: 50px;
+        box-sizing: content-box;
+        position: relative;
+        margin: 20px 0 50px 0;
+        background-image: linear-gradient(to right, #650370 0%, #ee00ff 40%, #650370 100%);
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      .c:after {
+      
+    
+        content: "";
+        position: absolute;
+        top: 25px;
+        left: -25px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: rgb(133, 6, 159) transparent transparent transparent;
+        border-width: 50px 50px 0 50px;
+      }
+
+.cont{
+    margin-left:50px;
+    display: flex;
+    align-items: center;
+}
+.aside{
+margin-top: 80px;
+    display: block;
+   text-align: center;
+
+}
+div{
+    color:white;
+}
+body{
+   background-repeat: no-repeat;
+background-image: url("https://sun9-63.userapi.com/impg/xzjhYo_bBpVIir-BZAJmog3x4EELxfgXuzfySA/_HxuARX-Wqs.jpg?size=1920x1080&quality=96&sign=eeb84548be2c8bbe033d8dd6be6db869&type=album");
+background-size:cover;
+}
+pre{
+    color: rgba(255,255,255,0.5);
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+ 
+  #reg:hover {
+    background-position: right center;
+  }
+  #reg{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    
+cursor: pointer;
+    margin: -50px 0px 0px -25px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #650370 0%, #ee00ff 40%, #650370 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    background-color: white;
+    border-radius: 20px;
+border: none;
+font-size: 25px;
+padding: 20px;
+}
